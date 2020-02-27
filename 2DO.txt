@@ -1,14 +1,12 @@
-#
-
 #PLAN:
 
 0. create container. execute script inside container.
 
-1. geather all packages that have to be built, chech sources to find their unic names.
+1. geather all packages that have to be built, check sources to find their unique names.
 
 2. create list of dependencies. install all dependencies.
 
-3. build packages (find the way to add custom `USE` flags to them)
+3. build packages (find the way to add custom `USE` flags)
 
 4. create local(?) repo, add packages, add to sources.list. update system.
 
