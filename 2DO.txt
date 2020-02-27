@@ -1,0 +1,20 @@
+#
+
+#PLAN:
+
+0. create container. execute script inside container.
+
+1. geather all packages that have to be built, chech sources to find their unic names.
+
+2. create list of dependencies. install all dependencies.
+
+3. build packages (find the way to add custom `USE` flags to them)
+
+4. create local(?) repo, add packages, add to sources.list. update system.
+
+5. track updates.
+
+#BUGS:
+
+- libtool ignores CFLAGS: build sqlite to check it.
+EX: libtool: compile:  x86_64-linux-gnu-gcc -g -O2 -fdebug-prefix-map=/home/nycmoma/NATIVE/BUILD/sqlite-2.8.17=...
